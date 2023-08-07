@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.193);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    background-color: #000000b3;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 5px 10px;
+    padding: 10px 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a :hover{
+    color: aqua;
+}
+
+.left{
+    font-size: 25px;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+    height: 63vh;
+}
+
+.leftSection{
+    
+    /* background-color: red; */
+    width: 30%;
+    font-size: 3rem;
+    
+}
+
+#element{
+    color: skyblue;
+}
+
+.hl{
+    color: skyblue;
+}
+
+.rightSection{
+    display: flex;
+    justify-content: center;
+    
+    /* background-color: blue; */
+    width: 30%;
+}
+
+#bg{
+    height: 45vh;
+}
+
+.second{
+    height: 70vh;
+}
+ 
+main hr {
+    border-top: 2px solid blue;
+    margin: 10px 10px;
+}
+
+.experience{
+    margin: 2rem 5rem;
+}
+
+#work-experience{
+    font-size: 2rem;
+}
+
+.second-section-text{
+    color: black;
+}
+
+.second-box{
+    background: white;
+    width: 85vw;
+    height: 2px;
+    margin: auto;
+    display: flex;
+}
+
+.second-vertical{
+    height: 10vh;
+    width: 1px;
+    background-color: white;
+    margin: 0 20vh;
+}
+
+.developer-png{
+    width: 3vh;
+    position: relative;
+    top: -24px;
+    left: -6px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 8vh;
+    width: 18vh;
+    color: black;
+}
+
+.vertical-desc{
+    position: relative;
+    font-size: 12px;
+    top: 10vh;
+    width: 19vh;
+    color: purple;
+}
+
+footer{
+    
+    height: 50vh;
+    background-color: black;
+}
+.footer{
+    display: flex;
+    padding:20px;
+    
+}
+
+
+
+
